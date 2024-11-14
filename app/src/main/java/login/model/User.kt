@@ -1,2 +1,6 @@
-package login.model
+package com.example.beatonfit.login.model
 
+data class User(
+    val email: String,
+    val password: String
+)
